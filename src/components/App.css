@@ -1,0 +1,42 @@
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.app {
+  width: 700px;
+  padding: 15px;
+  margin: 0px auto;
+}
+
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo-card {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 25px;
+  margin-bottom: 50px;
+}
+
+.photo-card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.photo-card h4 {
+  text-align: center;
+}
